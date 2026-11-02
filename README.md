@@ -28,56 +28,12 @@ Segment the customer base into 4 strategic groups (Champions, VIP Customers, Loy
 
 ## 📈 Key Metrics
 
-|
- Metric 
-|
- Value 
-|
- Description 
-|
-|
---------
-|
--------
-|
------------
-|
-|
-**
-Total Customers
-**
-|
- 4,000 
-|
- Total number of customers analyzed 
-|
-|
-**
-Total Revenue
-**
-|
- R$ 8.91M 
-|
- Total revenue generated 
-|
-|
-**
-Avg Recency
-**
-|
- 92.54 days 
-|
- Average days since last purchase 
-|
-|
-**
-Avg Frequency
-**
-|
- 91.72 
-|
- Average number of purchases per customer 
-|
+| Metric | Value | Description |
+|--------|-------|-----------|
+| **Total Customers** | 4,000 | Total number of customers analyzed |
+| **Total Revenue** | R$ 8.91M | Total revenue generated |
+| **Avg Recency** | 92.54 days | Average days since last purchase |
+| **Avg Frequency** | 91.72 | Average number of purchases per customer |
 
 ---
 
@@ -156,69 +112,15 @@ Display the 4 main metrics with professional formatting:
 
 ## 🎨 Color Palette
 
-|
- Segment 
-|
- Hex Code 
-|
- Usage 
-|
-|
----------
-|
-----------
-|
--------
-|
-|
- Champions 
-|
-`#FF6B6B`
-|
- Coral Red 
-|
-|
- VIP Customers 
-|
-`#FFD93D`
-|
- Gold Yellow 
-|
-|
- Loyal 
-|
-`#6BCB77`
-|
- Emerald Green 
-|
-|
- At Risk 
-|
-`#4D96FF`
-|
- Vivid Blue 
-|
-|
- Titles 
-|
-`#2C3E50`
-|
- Dark Gray 
-|
-|
- Table Header 
-|
-`#0066CC`
-|
- Corporate Blue 
-|
-|
- Borders 
-|
-`#E0E0E0`
-|
- Light Gray 
-|
+| Segment | Hex Code | Usage |
+|---------|----------|-------|
+| Champions | `#FF6B6B` | Coral Red |
+| VIP Customers | `#FFD93D` | Gold Yellow |
+| Loyal | `#6BCB77` | Emerald Green |
+| At Risk | `#4D96FF` | Vivid Blue |
+| Titles | `#2C3E50` | Dark Gray |
+| Table Header | `#0066CC` | Corporate Blue |
+| Borders | `#E0E0E0` | Light Gray |
 
 ---
 
