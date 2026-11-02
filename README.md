@@ -1,139 +1,237 @@
 # 🎯 Customer Segmentation Analysis - RFM Model
 
-![Status](https://img.shields.io/badge/Status-Completo-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow?style=flat-square)
 ![RFM Model](https://img.shields.io/badge/Model-RFM-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-> **Análise de Segmentação de Clientes usando o Modelo RFM (Recency, Frequency, Monetary) no Microsoft Power BI Desktop**
+> **Customer Segmentation Analysis using the RFM Model (Recency, Frequency, Monetary) in Microsoft Power BI Desktop**
 
 ---
 
-## 📊 Visão Geral
+## 📊 Overview
 
-Este projeto implementa um **dashboard interativo** de segmentação de clientes baseado no modelo **RFM**, permitindo identificar padrões de comportamento e orientar estratégias de retenção, upsell e reativação.
+This project implements an **interactive dashboard** for customer segmentation based on the **RFM model**, enabling the identification of behavioral patterns and guiding strategies for retention, upsell, and reactivation.
 
-**Desenvolvido em:** Microsoft Power BI Desktop  
-**Data de Criação:** 1º de Novembro de 2026  
-**Versão:** 1.0  
-**Status:** ✅ Pronto para Apresentação
-
----
-
-## 🎯 Objetivo
-
-Segmentar a base de clientes em 4 grupos estratégicos (Champions, VIP Customers, Loyal, At Risk) para orientar ações de marketing e vendas baseadas em comportamento de compra.
+**Developed in:** Microsoft Power BI Desktop  
+**Creation Date:** November 1st, 2026  
+**Version:** 1.0  
+**Status:** ✅ Ready for Presentation
 
 ---
 
-## 📈 Métricas Principais
+## 🎯 Objective
 
-| Métrica | Valor | Descrição |
-|---------|-------|-----------|
-| **Total Customers** | 4.000 | Número total de clientes analisados |
-| **Total Revenue** | R$ 8,91 Mi | Receita total gerada |
-| **Avg Recency** | 92,54 dias | Dias médios desde última compra |
-| **Avg Frequency** | 91,72 | Número médio de compras por cliente |
+Segment the customer base into 4 strategic groups (Champions, VIP Customers, Loyal, At Risk) to guide marketing and sales actions based on purchase behavior.
 
 ---
 
-## 🔍 Segmentos de Clientes
+## 📈 Key Metrics
 
-### 🏆 Champions (Vermelho #FF6B6B)
-- **Quantidade:** 4 clientes
-- **Recência:** 2 dias (muito recente)
-- **Frequência:** 5.807 compras (muito alta)
-- **Valor Monetário:** R$ 70.925 (muito alto)
-- **Ação:** Retenção prioritária, VIP Program exclusivo
-
-### 💎 VIP Customers (Ouro #FFD93D)
-- **Quantidade:** 6 clientes
-- **Recência:** 7,67 dias (recente)
-- **Frequência:** 826,83 compras (alta)
-- **Valor Monetário:** R$ 190.863 (muito alto)
-- **Ação:** Benefícios exclusivos, atendimento personalizado
-
-### 💚 Loyal (Verde #6BCB77)
-- **Quantidade:** 3.248 clientes (74,87% da base)
-- **Recência:** 41,34 dias (moderada)
-- **Frequência:** 104,58 compras (moderada)
-- **Valor Monetário:** R$ 2.091 (moderado)
-- **Ação:** Cross-sell, upsell, programas de fidelização
-
-### ⚠️ At Risk (Azul #4D96FF)
-- **Quantidade:** 1.080 clientes (24,9% da base)
-- **Recência:** 247,31 dias (muito alta - inativo)
-- **Frequência:** 27,79 compras (baixa)
-- **Valor Monetário:** R$ 637 (baixo)
-- **Ação:** Campanhas de reativação, ofertas especiais
+|
+ Metric 
+|
+ Value 
+|
+ Description 
+|
+|
+--------
+|
+-------
+|
+-----------
+|
+|
+**
+Total Customers
+**
+|
+ 4,000 
+|
+ Total number of customers analyzed 
+|
+|
+**
+Total Revenue
+**
+|
+ R$ 8.91M 
+|
+ Total revenue generated 
+|
+|
+**
+Avg Recency
+**
+|
+ 92.54 days 
+|
+ Average days since last purchase 
+|
+|
+**
+Avg Frequency
+**
+|
+ 91.72 
+|
+ Average number of purchases per customer 
+|
 
 ---
 
-## 📊 Componentes do Dashboard
+## 🔍 Customer Segments
 
-### 1️⃣ KPI Cards (Topo)
-Exibem as 4 métricas principais com formatação profissional:
-- Valores em escala compacta (K, Mi)
-- Sombras suaves para profundidade
-- Bordas cinzas claras
+### 🏆 Champions (Red #FF6B6B)
+- **Quantity:** 4 customers
+- **Recency:** 2 days (very recent)
+- **Frequency:** 5,807 purchases (very high)
+- **Monetary Value:** R$ 70,925 (very high)
+- **Action:** Priority retention, exclusive VIP Program
 
-### 2️⃣ Gráfico de Pizza
+### 💎 VIP Customers (Gold #FFD93D)
+- **Quantity:** 6 customers
+- **Recency:** 7.67 days (recent)
+- **Frequency:** 826.83 purchases (high)
+- **Monetary Value:** R$ 190,863 (very high)
+- **Action:** Exclusive benefits, personalized service
+
+### 💚 Loyal (Green #6BCB77)
+- **Quantity:** 3,248 customers (74.87% of base)
+- **Recency:** 41.34 days (moderate)
+- **Frequency:** 104.58 purchases (moderate)
+- **Monetary Value:** R$ 2,091 (moderate)
+- **Action:** Cross-sell, upsell, loyalty programs
+
+### ⚠️ At Risk (Blue #4D96FF)
+- **Quantity:** 1,080 customers (24.9% of base)
+- **Recency:** 247.31 days (very high - inactive)
+- **Frequency:** 27.79 purchases (low)
+- **Monetary Value:** R$ 637 (low)
+- **Action:** Reactivation campaigns, special offers
+
+---
+
+## 📊 Dashboard Components
+
+### 1️⃣ KPI Cards (Top)
+Display the 4 main metrics with professional formatting:
+- Values in compact scale (K, M)
+- Soft shadows for depth
+- Clear gray borders
+
+### 2️⃣ Pie Chart
 **Customer Distribution by Segment (%)**
-- Distribuição percentual de clientes por segmento
-- Rótulos com valores e percentuais
-- Legenda interativa
+- Percentage distribution of customers by segment
+- Labels with values and percentages
+- Interactive legend
 
-### 3️⃣ Gráfico de Barras
+### 3️⃣ Bar Chart
 **Revenue by Segment**
-- Receita total por segmento em milhões
-- Rótulos externos para fácil leitura
-- Eixo Y em escala de milhões
+- Total revenue per segment in millions
+- External labels for easy reading
+- Y-axis in millions scale
 
-### 4️⃣ Gráfico de Dispersão
+### 4️⃣ Scatter Plot
 **RFM Analysis (Recency vs Frequency)**
-- Eixo X: Recência (dias)
-- Eixo Y: Frequência (compras)
-- Tamanho das bolhas: Proporcional ao Monetary
-- Identifica clusters de comportamento
+- X-axis: Recency (days)
+- Y-axis: Frequency (purchases)
+- Bubble size: Proportional to Monetary value
+- Identifies behavioral clusters
 
-### 5️⃣ Tabela de Características
+### 5️⃣ Characteristics Table
 **Segment Characteristics**
-- Resumo estatístico por segmento
-- Cabeçalho azul corporativo
-- Linhas alternadas para legibilidade
+- Statistical summary per segment
+- Corporate blue header
+- Alternating rows for readability
 
-### 6️⃣ Filtros Interativos
-- **Segment:** Seleção por segmento
-- **Recency:** Slider para intervalo de dias
-- **Monetary:** Slider para intervalo de valor
-- Cross-filtering automático em todos os gráficos
-
----
-
-## 🎨 Paleta de Cores
-
-| Segmento | Código HEX | Uso |
-|----------|-----------|-----|
-| Champions | `#FF6B6B` | Vermelho Coral |
-| VIP Customers | `#FFD93D` | Amarelo Ouro |
-| Loyal | `#6BCB77` | Verde Esmeralda |
-| At Risk | `#4D96FF` | Azul Vivo |
-| Títulos | `#2C3E50` | Cinza Escuro |
-| Header Tabela | `#0066CC` | Azul Corporativo |
-| Bordas | `#E0E0E0` | Cinza Claro |
+### 6️⃣ Interactive Filters
+- **Segment:** Selection by segment
+- **Recency:** Slider for day range
+- **Monetary:** Slider for value range
+- Automatic cross-filtering across all charts
 
 ---
 
-## 🚀 Como Usar
+## 🎨 Color Palette
 
-### Pré-requisitos
-- ✅ Microsoft Power BI Desktop (versão 2024 ou superior)
-- ✅ Arquivo `Dashboard_RFM.pbix`
-- ✅ Arquivo `customers_segmented.csv`
+|
+ Segment 
+|
+ Hex Code 
+|
+ Usage 
+|
+|
+---------
+|
+----------
+|
+-------
+|
+|
+ Champions 
+|
+`#FF6B6B`
+|
+ Coral Red 
+|
+|
+ VIP Customers 
+|
+`#FFD93D`
+|
+ Gold Yellow 
+|
+|
+ Loyal 
+|
+`#6BCB77`
+|
+ Emerald Green 
+|
+|
+ At Risk 
+|
+`#4D96FF`
+|
+ Vivid Blue 
+|
+|
+ Titles 
+|
+`#2C3E50`
+|
+ Dark Gray 
+|
+|
+ Table Header 
+|
+`#0066CC`
+|
+ Corporate Blue 
+|
+|
+ Borders 
+|
+`#E0E0E0`
+|
+ Light Gray 
+|
 
-### Instalação
+---
 
-1. **Clone o repositório**
+## 🚀 How to Use
+
+### Prerequisites
+- ✅ Microsoft Power BI Desktop (version 2024 or later)
+- ✅ `Dashboard_RFM.pbix` file
+- ✅ `customers_segmented.csv` file
+
+### Installation
+
+1. **Clone the repository**
    ```bash
    git clone https://github.com/marcosaqf47/Dashboard_RFM
    cd Dashboard_RFM
