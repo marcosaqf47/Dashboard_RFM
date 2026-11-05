@@ -126,6 +126,14 @@ Display the 4 main metrics with professional formatting:
 
 ## 🚀 How to Use
 
+1. Open `queries_rfm.sql`
+2. Copy the desired query
+3. Execute in your database
+4. Import results into Power BI
+
+### Full Documentation
+See `SQL_DOCUMENTATION.md` for details on each query, prerequisites and output examples.
+
 ## 🗄️ SQL Queries & Data Pipeline
 
 This project includes advanced SQL queries for RFM calculation and segmentation based on real data:
