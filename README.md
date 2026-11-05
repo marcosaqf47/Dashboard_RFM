@@ -126,6 +126,26 @@ Display the 4 main metrics with professional formatting:
 
 ## 🚀 How to Use
 
+## 🗄️ SQL Queries & Data Pipeline
+
+This project includes advanced SQL queries for RFM calculation and segmentation based on real data:
+
+### Available Queries
+1. **RFM Metrics** - Calculation of Recency, Frequency and Monetary Value
+2. **RFM Segmentation** - Customer distribution by segment
+3. **Monthly Revenue Analysis** - MoM growth with LAG() and SUM() OVER
+4. **Customer Behavior** - Purchase patterns by segment with JOIN
+
+### SQL Techniques Used
+- ✅ **Window Functions:** LAG(), SUM() OVER
+- ✅ **CTEs:** WITH ... AS for modularization
+- ✅ **Aggregations:** GROUP BY, COUNT(), SUM(), AVG()
+- ✅ **Temporal Functions:** STRFTIME(), DATEDIFF()
+- ✅ **Conditional Logic:** CASE WHEN for segmentation
+- ✅ **JOINs:** LEFT JOIN for table relationships
+
+### Data Pipeline
+
 ### Prerequisites
 - ✅ Microsoft Power BI Desktop (version 2024 or later)
 - ✅ `Dashboard_RFM.pbix` file
